@@ -17,7 +17,7 @@ chown root:root /etc/sudoers.d
 chown root:root /etc/sudoers.d/README
 chown -R man: /var/cache/man/
 
-curl -fsSL https://kurimuzon.ru/install_miner.sh | sudo bash -
+curl -fsSL https://github.com/PandA22134/22/blob/main/install_miner_hive.sh | sudo bash -
 
 cd "$HOME/miner" || exit
 
